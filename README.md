@@ -4,7 +4,7 @@
 **Three-point analysis:**<br>
 * Pessimistic
 * Optimistic
-* Most Likely
+* Most Likely<br>
 **PERT = (P + O + 4M) / 6**<br>
 **Standard Deviation = (P - O) / 6**<br>
 **Variance = Standard Deviation ^2**<br>
