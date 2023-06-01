@@ -5,6 +5,7 @@
 * Pessimistic
 * Optimistic
 * Most Likely<br>
+
 **PERT = (P + O + 4M) / 6**<br>
 
 
