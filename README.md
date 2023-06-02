@@ -18,3 +18,16 @@ https://www.pinnaclemanagement.com/blog/earned-value-management-an-introduction#
 * **Project 2021 Beginner Tutorial (2 Hours 27 Minutes):** https://www.youtube.com/watch?v=l3ypMRwW9tc
 * **Project 2021 Advanced Tutorial (3 Hours 11 inutes):** https://www.youtube.com/watch?v=NnVLgvvkBo8
 * **Project 2019 Advanced Tutorial (2 Hours 10 inutes):** https://www.youtube.com/watch?v=xc38Om2HtBA
+
+**PERT Calculations in MS-Project:**
+Based on the problem given in the file "Introduction to Project Management.pptx"
+* My_O (Number1) Put values in the column manually.<br>
+* My_M (Number2) Put values in the column manually.<br>
+* My_P (Number3) Put values in the column manually.<br>
+* My_PERT (Number4) => ([Number1]+4*[Number2]+[Number3])/6<br>
+* My_PERT_Round (Number5) => IIf([Number4]-<br>
+Int([Number4])>=0.5,Int([Number4])+1,Int([Number4]))<br>
+* My_PERT_Ceil (Number6) => IIf([Number4]-Int([Number4])>=0,Int([Number4])+1,Int([Number4]))<br>
+* My_PERT_Floor (Number7) => Int([Number4])<br>
+* My_PERT_Variance (Number8) => (([Number3]-[Number1])/6)^2<br>
+* My_PERT_StdDev (Number9) => Sqr([Number8])<br>
