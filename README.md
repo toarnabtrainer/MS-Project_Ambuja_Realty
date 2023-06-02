@@ -9,3 +9,6 @@
 **PERT = (P + O + 4M) / 6**<br>
 **Standard Deviation = (P - O) / 6**<br>
 **Variance = Standard Deviation ^ 2**<br>
+
+**Note on BCWS, BCWP and EVM Variables available in this link:**<br>
+https://acqnotes.com/acqnote/tasks/budgeted-cost-of-work-scheduled#:~:text=BCWS%20%3D%20Budgeted%20Cost%20of%20Work,Actual%20Cost%20of%20Work%20Performed
